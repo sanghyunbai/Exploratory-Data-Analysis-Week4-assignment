@@ -9,7 +9,7 @@ readData <- function(fileName ,local = TRUE){
                         downloadFile()
                 }
         }
-        print("file found!")
+        print("file found!, be patient. Its reading data")
         if(file_ext(fileName) == "rds"){
                 return(readRDS(path))
         }
